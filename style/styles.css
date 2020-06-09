@@ -1,4 +1,4 @@
-h1,h2,h3,h4,p{
+h1,h2,h3,h4,p {
 text-align: center;
 }
 
@@ -102,16 +102,11 @@ text-align: center;
 flex: 20%;
 text-align: center;
 }
-
 .ingredients {
     flex: 20%;
     text-align: left;
     padding: 0 0 0 10%;
     }
-
-
-
-
 /* Using recipe pictures as links to specific pages */
 * {box-sizing: border-box}
 
