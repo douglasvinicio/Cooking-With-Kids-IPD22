@@ -2,6 +2,15 @@ h1,h2,h3,h4,p{
 text-align: center;
 }
 
+* {
+background-color: #e6e6e6;
+}
+
+.form{
+display: flex;
+justify-content: center;
+}
+
 /* set the top image */
 .home-background {
 display: flex;
@@ -95,14 +104,6 @@ text-align: center;
 }
 
 
-* {
-background-color: #e6e6e6;
-}
-
-.form{
-    display: flex;
-    justify-content: center;
-}
 
 
 
