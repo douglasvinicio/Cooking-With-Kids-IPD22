@@ -1,10 +1,10 @@
-# Cooking-With-Kids---IPD22 
-## Deployed at GitHub Pages : https://douglasvinicio.github.io/Cooking-With-Kids-IPD22/
-### Project being developed for IPD-22 John Abbott.
+# Cooking-With-Kids-IPD22-John Abbott 
+#### Deployed at GitHub Pages : https://douglasvinicio.github.io/Cooking-With-Kids-IPD22/
+
 
 
 <p align="center">
-  <img  alt="Events Maker  - Logo" src="" height="auto" /><br/>
+  <img  alt="Cooking with Kids - Logo" src="https://trello-attachments.s3.amazonaws.com/5ed9b7d9778b035759fc1041/679x382/7c1c335e017249b1d942043fa42d9866/header-banner.jpg" height="auto" /><br/>
   <span>Recipes platform developed using <b> HTML / CSS </b></span><br/>
   <span>Running on <b>Safari , Chrome, Firefox and Opera </b>. </span><br/>
 </p>
