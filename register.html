@@ -7,7 +7,15 @@
     <link rel="stylesheet" type="text/css" href="style/styles.css">
     <title>Cooking With Kids</title>
 </head>
+<style>
 
+.text-input label {
+    display: inline-block;
+    width: 180px;
+    text-align: start;
+}
+
+</style>
 <body>
 
 <div class="content"> <!-- set entire page (except header) to be contained within this content divider -->
@@ -50,6 +58,7 @@
                             <legend><h2>Not a member yet? </h2></legend>
                             <p style="text-align: left;">Don't worry, we have plenty of space ;) <br> Just <b>register</b> using the form below.</p>
                             <!-- Personal info section of the form -->
+                            <div class="text-input">
                             <fieldset>
                                 <legend>Personal Info:</legend>
                                 <label for="first-name">First Name</label>
@@ -66,8 +75,10 @@
                                 <br>
                                 <label for="birthday">Birthday</label>
                                 <input id="birthday" type="date" name="month" min="1910-01-01" max="2002-12-31">
-                                <br>
-                                <p>Select a gender:</p>
+                            </fieldset>
+                        </div>
+                            <fieldset>
+                                <legend>Select a gender</legend>
                                 <input type="radio" id="male" name="gender" value="male">
                                 <label for="male">Male</label>
                                 <input type="radio" id="female" name="gender" value="female">
@@ -75,17 +86,16 @@
                                 <input type="radio" id="other" name="gender" value="other">
                                 <label for="other">Other</label>
                             </fieldset>
-                            <br>
                             <!-- Password section of the form -->
+                            <div class="text-input">
                             <fieldset>
                                 <legend>Password</legend>
                                 <label for="password">Choose a password</label>
                                 <input id="password" type="password">
                                 <br>
-                                <label for="confirm-password">Confirm your password</label>
+                                <label for="confirm-password">Re-type your password</label>
                                 <input id="confirm-password" type="password" >
                             </fieldset>
-                            <br>
                             <!-- Location section of the form -->
                             <fieldset>
                                 <legend>Location</legend>
@@ -98,22 +108,24 @@
                                 <label for="country">Country</label>
                                 <input type="text" name="country" id="country">
                             </fieldset>
-                            <br>
+                        </div>
                             <!-- Extra information of the form -->
                             <fieldset>
                                 <legend>Select one or more of the options:</legend>
-                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                                <label for="vehicle1"> I'm a parent</label><br>
-                                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                                <label for="vehicle2"> I'm an uncle</label><br>
-                                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                                <label for="vehicle3"> I'm a gran-parent</label><br>
+                                <input type="checkbox" id="parent" name="parent" value="Parent">
+                                <label for="parent"> I'm a parent</label><br>
+                                <input type="checkbox" id="uncle" name="uncle" value="Uncle">
+                                <label for="uncle"> I'm an uncle</label><br>
+                                <input type="checkbox" id="gran-parent" name="gran-parent" value="Gran-parent">
+                                <label for="gran-parent"> I'm a gran-parent</label><br>
+                                <input type="checkbox" id="visitor" name="visitor" value="visitor">
+                                <label for="visitor">Rather not answer</label><br>
                             </fieldset>
                             <fieldset>
                                 <legend>How many kids?</legend>
                                 <p>
                                     <label>Number of kids</label>
-                                    <select id="myList">
+                                    <select id="number-of-kids">
                                         <option value="0">None</option>
                                         <option value="1">One</option>
                                         <option value="2">Two</option>

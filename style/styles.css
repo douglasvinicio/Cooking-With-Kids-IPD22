@@ -12,6 +12,7 @@ text-align: center;
 background-color: #e6e6e6;
 }
 
+
 .form{
 display: flex;
 justify-content: center;
@@ -110,10 +111,10 @@ text-align: center;
 }
 
 .ingredients {
-    flex: 20%;
-    text-align: left;
-    padding: 0 0 0 10%;
-    }
+flex: 20%;
+text-align: left;
+padding: 0 0 0 10%;
+}
 
 
 
