@@ -126,13 +126,14 @@ padding: 0 0 0 10%;
 .container {
   position: relative;
   width: 100%;
-  max-width: 500px;
+  max-width: 250px;
+  margin: auto;
 }
 
 /* Make the image to responsive */
 .image {
   display: block;
-  width: 100%;
+  width: 250px;
   height: auto;
 }
 
@@ -143,7 +144,7 @@ padding: 0 0 0 10%;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
-  width: 100%;
+  width: 250px;
   transition: .5s ease;
   opacity:0;
   color: white;
