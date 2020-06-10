@@ -8,13 +8,16 @@ h1,h2,h3,h4,p{
 text-align: center;
 }
 
+/* Using recipe pictures as links to specific pages */
 * {
 background-color: #e6e6e6;
+box-sizing: border-box;
 }
 
 .zoom {
   transition: transform .2s; /* Animation */
   margin: 0 auto;
+  max-height: 100px;
 }
 
 .zoom:hover {
@@ -124,12 +127,6 @@ flex: 20%;
 text-align: left;
 padding: 0 0 0 10%;
 }
-
-
-
-
-/* Using recipe pictures as links to specific pages */
-* {box-sizing: border-box}
 
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
