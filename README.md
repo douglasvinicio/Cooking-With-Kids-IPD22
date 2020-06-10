@@ -5,18 +5,17 @@
 
 <p align="center">
   <img  alt="Events Maker  - Logo" src="" height="auto" /><br/>
-  <span>Event Platform Developed using <b> Python / Flask / Javascript </b></span><br/>
-  <span>Running on <b>Safari , Chrome and Firefox </b>. </span><br/>
+  <span>Recipes platform developed using <b> HTML / CSS </b></span><br/>
+  <span>Running on <b>Safari , Chrome, Firefox and Opera </b>. </span><br/>
 </p>
-*Developed using HTML and CSS. 
 
 <!-- header section -->
 
 
 <!-- show case/gif section -->
 <p align="center">
-    <img alt="Events Maker - Creating user and Channel " height="300" src="https://media.giphy.com/media/cO8Nom4LZTIn0K6Da0/giphy.gif" />
-    <img alt="Events Maker - Chat " height="300" src="https://media.giphy.com/media/IdINDyTVdNh36NZ6Ng/giphy.gif" />
+    <img alt="" height="300" src="" />
+    <img alt="" height="300" src="" />
 
   </a>
 </p>
